@@ -15,3 +15,12 @@
 8. login_button.click()
 9. 有时候click()方法可能会不生效， 作为代替可以用键盘操作， from selenium.webdriver.common.keys import Keys
 10. elem_passwd.send_Keys('Keys.RETURN')
+
+## 2019/3/30
+
+1. git clone https:
+2. git fetch oringin dev  dev为远程分支名
+3. git checkout -b dev(本地分支) origin/dev(远程分支)  创建本地分支并切换且关联远程分支
+4. 如果创建时未关联远程分支，或需要修改关联， git branch --set-upstream-to=origin/dev(远程分支) dev(本地分支)
+5. git pull origin dev(远程分支)  把远程分支拉取到当前分支  git pull oringin dev(远程):dev(本地) 把远程分支拉取到指定本地分支
+6. git branch -vv 查看所有分支及关联状态
