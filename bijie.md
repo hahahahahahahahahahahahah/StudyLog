@@ -24,3 +24,11 @@
 4. 如果创建时未关联远程分支，或需要修改关联， git branch --set-upstream-to=origin/dev(远程分支) dev(本地分支)
 5. git pull origin dev(远程分支)  把远程分支拉取到当前分支  git pull oringin dev(远程):dev(本地) 把远程分支拉取到指定本地分支
 6. git branch -vv 查看所有分支及关联状态
+
+## 2019/3/31
+
+1. tensorflow中 tensor的维度是 [batch,height,width,channels]
+2. 一般分为构建阶段和执行阶段
+3. 构建阶段一般是构建计算图中的各种operation, 一个计算图就是由各个operation和 流动的tensor构成的
+4. 执行过程是由Session定义的, 数据则是存储在Variable内
+5. 
